@@ -18,7 +18,7 @@ lint *extra_args:
   -e IGNORE_GENERATED_FILES=true \
   -e IGNORE_GITIGNORED_FILES=true \
   -e YAML_ERROR_ON_WARNING=true \
-  -e FILTER_REGEX_EXCLUDE=.*vault\.yml \
+  -e FILTER_REGEX_EXCLUDE=.*gradlew.* \
   {{extra_args}} \
   -v {{justfile_directory()}}:/tmp/lint \
   github/super-linter:{{super_linter_version}}
