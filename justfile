@@ -25,8 +25,8 @@ lint *extra_args:
 
 # Run the tests
 test:
-  echo "no-op"
+  ./gradlew test
 
 # Clean generated files
 clean:
-  echo "no-op"
+  ./gradlew clean
