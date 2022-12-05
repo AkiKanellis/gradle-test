@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/AkiKanellis/gradle-test/compare/v1.0.0...v1.0.1) (2022-12-05)
+
+
+### Build System
+
+* **deps:** pin gradle/gradle-build-action action to 3fbe033 ([#3](https://github.com/AkiKanellis/gradle-test/issues/3)) ([73974e9](https://github.com/AkiKanellis/gradle-test/commit/73974e9b6d30782ed264caaa5cf91e82c0033ffd))
+
 ## 1.0.0 (2022-12-04)
 
 
