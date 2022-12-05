@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/AkiKanellis/gradle-test/compare/v1.0.4...v1.0.5) (2022-12-05)
+
+
+### Build System
+
+* add build scan ([dbcfb72](https://github.com/AkiKanellis/gradle-test/commit/dbcfb72cdca11e872eaca4d8f89739ba78282a41))
+
 ## [1.0.4](https://github.com/AkiKanellis/gradle-test/compare/v1.0.3...v1.0.4) (2022-12-05)
 
 
