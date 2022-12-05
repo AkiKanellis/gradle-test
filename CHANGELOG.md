@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/AkiKanellis/gradle-test/compare/v1.0.2...v1.0.3) (2022-12-05)
+
+
+### Build System
+
+* complete gradle build ([aca416f](https://github.com/AkiKanellis/gradle-test/commit/aca416f22c511ca72734963aaf84c42a310c8337))
+
 ## [1.0.2](https://github.com/AkiKanellis/gradle-test/compare/v1.0.1...v1.0.2) (2022-12-05)
 
 
