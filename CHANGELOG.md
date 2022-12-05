@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/AkiKanellis/gradle-test/compare/v1.0.3...v1.0.4) (2022-12-05)
+
+
+### Build System
+
+* add java setup ([a4e5f09](https://github.com/AkiKanellis/gradle-test/commit/a4e5f094c7afb6491f1a1f46e8d1bfb2840a149f))
+
 ## [1.0.3](https://github.com/AkiKanellis/gradle-test/compare/v1.0.2...v1.0.3) (2022-12-05)
 
 
