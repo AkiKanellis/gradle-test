@@ -17,22 +17,11 @@ dependencies {
 
 kotlin {
     jvmToolchain {
-        val javaVendorWithVersion = File(".tool-versions").readLines()
-            .single { it.contains("java") }
-            .split(" ")[1]
-            .split("-")
-        val javaVendor = javaVendorWithVersion[0]
-        val javaVersion = javaVendorWithVersion[1]
+        // renovate: datasource=adoptium-java depName=java
+        val javaVersion = "17.0.5+8"
         val javaMajorVersion = javaVersion.split(".").first()
 
-        vendor.set(
-            JvmVendorSpec.matching(
-                when (javaVendor) {
-                    "temurin" -> "adoptium"
-                    else -> javaVendor
-                }
-            )
-        )
+        vendor.set(JvmVendorSpec.ADOPTIUM)
         languageVersion.set(JavaLanguageVersion.of(javaMajorVersion))
     }
 }

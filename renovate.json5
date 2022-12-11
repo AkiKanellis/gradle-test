@@ -55,8 +55,7 @@ semver\
     },
     {
       description: "Update Java in .tool-versions.\
-      The asdf manager for renovate does not currently support the temurin\
-      distribution.\
+      The asdf manager does not currently support the temurin distribution.\
       See:\
         * https://github.com/renovatebot/renovate/issues/19183\
         * https://github.com/renovatebot/renovate/issues/19184",
