@@ -1,3 +1,12 @@
+## [1.0.25](https://github.com/AkiKanellis/gradle-test/compare/v1.0.24...v1.0.25) (2022-12-11)
+
+
+### Build System
+
+* add direnv ([b0832d1](https://github.com/AkiKanellis/gradle-test/commit/b0832d1df9992d103ad97671899d250a500d5f50))
+* **deps:** update dependency java to v17 ([#12](https://github.com/AkiKanellis/gradle-test/issues/12)) ([c41e541](https://github.com/AkiKanellis/gradle-test/commit/c41e541f7c0e6a4871715ce8d74f34c2cbeabe5a))
+* remove dollar ([af10bc4](https://github.com/AkiKanellis/gradle-test/commit/af10bc4024c377549fecda072eaf0ea04bcf4c22))
+
 ## [1.0.24](https://github.com/AkiKanellis/gradle-test/compare/v1.0.23...v1.0.24) (2022-12-11)
 
 
