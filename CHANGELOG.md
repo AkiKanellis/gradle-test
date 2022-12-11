@@ -1,3 +1,11 @@
+## [1.0.16](https://github.com/AkiKanellis/gradle-test/compare/v1.0.15...v1.0.16) (2022-12-11)
+
+
+### Build System
+
+* allow to rapidly test dependencies ([997d538](https://github.com/AkiKanellis/gradle-test/commit/997d538c21490c52d25c6e1ee7260cf5a28fcf44))
+* setup java with renovate ([80080db](https://github.com/AkiKanellis/gradle-test/commit/80080db6c5bf6bf412b405f1b5c3734a299fc3ee))
+
 ## [1.0.15](https://github.com/AkiKanellis/gradle-test/compare/v1.0.14...v1.0.15) (2022-12-11)
 
 
