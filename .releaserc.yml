@@ -45,5 +45,6 @@ plugins:
   - gradle-semantic-release-plugin
   - - "@semantic-release/git"
     - assets:
+        - CHANGELOG.md
         - gradle.properties
   - "@semantic-release/github"
