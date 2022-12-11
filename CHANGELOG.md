@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/AkiKanellis/gradle-test/compare/v1.0.14...v1.0.15) (2022-12-11)
+
+
+### Build System
+
+* **deps:** pin codecov/codecov-action action to d9f34f8 ([#8](https://github.com/AkiKanellis/gradle-test/issues/8)) ([759b97a](https://github.com/AkiKanellis/gradle-test/commit/759b97a0b347c0a73d10dc78173757585518deb0))
+
 ## [1.0.14](https://github.com/AkiKanellis/gradle-test/compare/v1.0.13...v1.0.14) (2022-12-11)
 
 
