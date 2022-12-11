@@ -42,5 +42,8 @@ plugins:
           - type: ci
             section: Continuous Integration
   - "@semantic-release/changelog"
-  - "@semantic-release/git"
+  - gradle-semantic-release-plugin
+  - - "@semantic-release/git"
+    - assets:
+        - gradle.properties
   - "@semantic-release/github"
