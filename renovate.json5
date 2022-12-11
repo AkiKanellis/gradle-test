@@ -52,6 +52,17 @@
 {{else}}\
 semver\
 {{/if}}"
+    },
+    {
+      description: "Update Java in .tool-versions",
+      fileMatch: ["(^|/)\.tool-versions$"],
+      matchStrings: [
+        "\
+^java\\s+temurin-(?<currentValue>.+)\
+(\\s+|\\s+.*)"
+      ],
+      datasourceTemplate: "adoptium-java",
+      depNameTemplate: "java"
     }
   ],
   packageRules: [
