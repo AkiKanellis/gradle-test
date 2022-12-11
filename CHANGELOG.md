@@ -1,3 +1,11 @@
+## [1.0.10](https://github.com/AkiKanellis/gradle-test/compare/v1.0.9...v1.0.10) (2022-12-11)
+
+
+### Build System
+
+* commit CHANGELOG.md ([1628adf](https://github.com/AkiKanellis/gradle-test/commit/1628adfd31b0d7dbb1e3f0179bf860e62705e787))
+* fix lint issue ([cbda4da](https://github.com/AkiKanellis/gradle-test/commit/cbda4da2f1551bf524c65fecb0a8553a0df16094))
+
 ## [1.0.8](https://github.com/AkiKanellis/gradle-test/compare/v1.0.7...v1.0.8) (2022-12-11)
 
 
