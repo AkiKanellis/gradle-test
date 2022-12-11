@@ -31,6 +31,17 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Setup Java
+        uses: actions/setup-java@v3.6.0
+        with:
+          distribution: temurin
+          # TODO: renovate
+          java-version: 17.0.5+8
+
+      - name: Setup Gradle
+        # yamllint disable-line rule:line-length
+        uses: gradle/gradle-build-action@3fbe033aaae657f011f88f29be9e65ed26bd29ef # v2.3.3
+
       - name: Release
         id: release
         # yamllint disable-line rule:line-length
