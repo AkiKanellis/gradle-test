@@ -18,7 +18,7 @@
 <br />
 
 [![Build Main](https://github.com/akikanellis/gradle-test/actions/workflows/build-main.yml/badge.svg)](https://github.com/akikanellis/gradle-test/actions/workflows/build-main.yml)
-[![codecov](https://codecov.io/gh/akikanellis/gradle-test/branch/main/graph/badge.svg)](https://codecov.io/gh/akikanellis/gradle-test)
+[![Test Coverage](https://codecov.io/gh/akikanellis/gradle-test/branch/main/graph/badge.svg)](https://codecov.io/gh/akikanellis/gradle-test)
 
 </div>
 
