@@ -1,3 +1,10 @@
+## [1.0.28](https://github.com/AkiKanellis/gradle-test/compare/v1.0.27...v1.0.28) (2022-12-11)
+
+
+### Build System
+
+* don't use gradle.properties ([a270618](https://github.com/AkiKanellis/gradle-test/commit/a2706188cb0b1783d662a17d6f05b0433df092e0))
+
 ## [1.0.27](https://github.com/AkiKanellis/gradle-test/compare/v1.0.26...v1.0.27) (2022-12-11)
 
 
