@@ -16,16 +16,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Lint
-        # TODO do not disable
-        if: false
-        # yamllint disable-line rule:line-length
-        uses: github/super-linter/slim@bb2d833b08b6c288608686672b93a8a4589cdc49 # tag=v4.9.7
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEFAULT_BRANCH: main
-          VALIDATE_ALL_CODEBASE: false
-          IGNORE_GENERATED_FILES: true
-          IGNORE_GITIGNORED_FILES: true
-          YAML_ERROR_ON_WARNING: true
-          FILTER_REGEX_EXCLUDE: .*gradlew.*
+      # TODO do not disable
+#      - name: Lint
+#        # yamllint disable-line rule:line-length
+#        uses: github/super-linter/slim@bb2d833b08b6c288608686672b93a8a4589cdc49 # tag=v4.9.7
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#          DEFAULT_BRANCH: main
+#          VALIDATE_ALL_CODEBASE: false
+#          IGNORE_GENERATED_FILES: true
+#          IGNORE_GITIGNORED_FILES: true
+#          YAML_ERROR_ON_WARNING: true
+#          FILTER_REGEX_EXCLUDE: .*gradlew.*
