@@ -17,8 +17,16 @@ dependencies {
 
 kotlin {
     jvmToolchain {
-        // TODO renovate
-        languageVersion.set(JavaLanguageVersion.of(17))
+        vendor.set(JvmVendorSpec.ADOPTIUM)
+        languageVersion.set(
+            JavaLanguageVersion.of(
+                providers
+                    .gradleProperty("javaVersion")
+                    .get()
+                    .split(".")
+                    .first()
+            )
+        )
     }
 }
 
