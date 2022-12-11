@@ -61,6 +61,13 @@ semver\
       automerge: false
     },
     {
+      description: "Use correct compatibility for Java in .tool-versions",
+      matchDatasources: ["adoptium-java"],
+      matchPackageNames: ["java"],
+      matchManagers: ["asdf"],
+      versioning: "regex:^(temurin-)(?<currentValue>.+)$"
+    },
+    {
       description: "Use correct compatibility for github/super-linter",
       matchDatasources: ["docker"],
       matchPackageNames: ["github/super-linter"],
