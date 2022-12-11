@@ -3,7 +3,7 @@ preset: conventionalcommits
 branches: main
 
 plugins:
-  - - @semantic-release/commit-analyzer
+  - - "@semantic-release/commit-analyzer"
     - releaseRules:
         - type: refactor
           release: patch
@@ -11,7 +11,7 @@ plugins:
           release: patch
         - type: ci
           release: patch
-  - - @semantic-release/release-notes-generator
+  - - "@semantic-release/release-notes-generator"
     - presetConfig:
         # this overrides the entire `types` property so all the types have to be
         # redefined
@@ -41,9 +41,9 @@ plugins:
             section: Build System
           - type: ci
             section: Continuous Integration
-  - @semantic-release/changelog
+  - "@semantic-release/changelog"
   - gradle-semantic-release-plugin
-  - - @semantic-release/git
+  - - "@semantic-release/git"
     - assets:
         - gradle.properties
-  - @semantic-release/github
+  - "@semantic-release/github"
