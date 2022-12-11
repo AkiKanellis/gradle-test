@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/AkiKanellis/gradle-test/compare/v1.0.17...v1.0.18) (2022-12-11)
+
+
+### Build System
+
+* add java package rule ([51ac7f1](https://github.com/AkiKanellis/gradle-test/commit/51ac7f16e9318f0763467822fb6e558db8225870))
+
 ## [1.0.17](https://github.com/AkiKanellis/gradle-test/compare/v1.0.16...v1.0.17) (2022-12-11)
 
 
