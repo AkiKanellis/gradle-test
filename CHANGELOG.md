@@ -1,3 +1,11 @@
+## [1.0.8](https://github.com/AkiKanellis/gradle-test/compare/v1.0.7...v1.0.8) (2022-12-11)
+
+
+### Build System
+
+* add codecov badge ([#6](https://github.com/AkiKanellis/gradle-test/issues/6)) ([9e6e5f2](https://github.com/AkiKanellis/gradle-test/commit/9e6e5f2e9bb4e89744f7aac0891167392e7ecb61))
+* add codecov restrictions ([e6bfd7d](https://github.com/AkiKanellis/gradle-test/commit/e6bfd7d8a04ff89c2f507de82b0f9c723394b3f1))
+
 ## [1.0.7](https://github.com/AkiKanellis/gradle-test/compare/v1.0.6...v1.0.7) (2022-12-11)
 
 
