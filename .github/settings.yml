@@ -35,6 +35,8 @@ branches:
       required_status_checks:
         strict: true
         contexts:
+          - codecov/patch
+          - codecov/project
           - Lint / Lint
           - Test / Test
           - Validate branch name
