@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/AkiKanellis/gradle-test/compare/v1.0.12...v1.0.13) (2022-12-11)
+
+
+### Build System
+
+* **deps:** update actions/setup-java action to v3.8.0 ([#9](https://github.com/AkiKanellis/gradle-test/issues/9)) ([dac926e](https://github.com/AkiKanellis/gradle-test/commit/dac926e8608e91ae8d15d44f8adc6cc9944db0f8))
+
 ## [1.0.12](https://github.com/AkiKanellis/gradle-test/compare/v1.0.11...v1.0.12) (2022-12-11)
 
 
