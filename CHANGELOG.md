@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/AkiKanellis/gradle-test/compare/v1.0.16...v1.0.17) (2022-12-11)
+
+
+### Build System
+
+* debug renovate ([3173d3f](https://github.com/AkiKanellis/gradle-test/commit/3173d3fed80da83bff56469103095f2ea37aed71))
+
 ## [1.0.16](https://github.com/AkiKanellis/gradle-test/compare/v1.0.15...v1.0.16) (2022-12-11)
 
 
