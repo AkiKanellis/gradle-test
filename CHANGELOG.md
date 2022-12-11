@@ -1,3 +1,10 @@
+## [1.0.26](https://github.com/AkiKanellis/gradle-test/compare/v1.0.25...v1.0.26) (2022-12-11)
+
+
+### Build System
+
+* add missing comment ([54c39ff](https://github.com/AkiKanellis/gradle-test/commit/54c39ff78881734e63a2cf68ce00627c87842d68))
+
 ## [1.0.25](https://github.com/AkiKanellis/gradle-test/compare/v1.0.24...v1.0.25) (2022-12-11)
 
 
