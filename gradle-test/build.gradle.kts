@@ -37,8 +37,9 @@ tasks.jacocoTestReport {
 
 tasks.register("publish") {
     group = "publish"
-    description = """
-        Dummy publish to pass the verification phase of the gradle-semantic-release-plugin.
+    description =
+        """
+        Dummy task to pass the verification phase of the gradle-semantic-release-plugin.
         See: https://github.com/KengoTODA/gradle-semantic-release-plugin/issues/435
         """.trimIndent()
 }
