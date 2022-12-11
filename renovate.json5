@@ -62,7 +62,6 @@ semver\
     },
     {
       description: "Use correct compatibility for Java in .tool-versions",
-      matchDatasources: ["adoptium-java"],
       matchPackageNames: ["java"],
       matchManagers: ["asdf"],
       versioning: "regex:^(temurin-)(?<currentValue>.+)$"
