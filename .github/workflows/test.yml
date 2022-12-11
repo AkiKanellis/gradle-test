@@ -18,10 +18,14 @@ jobs:
         uses: actions/setup-java@v3.6.0
         with:
           distribution: temurin
+          # TODO: renovate
           java-version: 17.0.5+8
 
       - name: Test
         # yamllint disable-line rule:line-length
         uses: gradle/gradle-build-action@3fbe033aaae657f011f88f29be9e65ed26bd29ef # v2.3.3
         with:
-          arguments: test
+          arguments: test jacocoTestReport
+
+      - name: Upload test coverage to Codecov
+        uses: codecov/codecov-action@v3.1.1

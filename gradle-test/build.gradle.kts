@@ -1,5 +1,7 @@
 plugins {
     kotlin("jvm") version "1.7.22"
+
+    jacoco
 }
 
 group = "com.akikanellis.gradletest"
@@ -15,10 +17,20 @@ dependencies {
 
 kotlin {
     jvmToolchain {
+        // TODO renovate
         languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.jacocoTestReport {
+    dependsOn(tasks.test)
+
+    reports {
+        xml.required.set(true)
+        html.required.set(false)
+    }
 }
