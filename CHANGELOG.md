@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/AkiKanellis/gradle-test/compare/v1.0.6...v1.0.7) (2022-12-11)
+
+
+### Build System
+
+* add test coverage ([59dd6eb](https://github.com/AkiKanellis/gradle-test/commit/59dd6eba36fce69d9e0b9aa09e18492968993025))
+
 ## [1.0.6](https://github.com/AkiKanellis/gradle-test/compare/v1.0.5...v1.0.6) (2022-12-11)
 
 
