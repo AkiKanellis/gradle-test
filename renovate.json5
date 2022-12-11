@@ -54,13 +54,14 @@ semver\
 {{/if}}"
     },
     {
-      description: "Update Java in .tool-versions",
+      description: "Update Java in .tool-versions.\
+      The asdf manager for renovate does not currently support the temurin\
+      distribution.\
+      See:\
+        * https://github.com/renovatebot/renovate/issues/19183\
+        * https://github.com/renovatebot/renovate/issues/19184",
       fileMatch: ["(^|/)\.tool-versions$"],
-      matchStrings: [
-        "\
-^java\\s+temurin-(?<currentValue>.+)\
-(\\s+|\\s+.*)"
-      ],
+      matchStrings: ["^java\\s+temurin-(?<currentValue>.+)(\\s+|\\s+.*)$"],
       datasourceTemplate: "adoptium-java",
       depNameTemplate: "java"
     }
@@ -109,7 +110,7 @@ v?\
     {
       description: "Limit mongo versions to 4.x.x.\
       Version 5.0.0 introduced a minimum architecture which makes it\
-      incompatible with the current architecture of `server-nas`\
+      incompatible with the current architecture of `server-nas`.\
       See:\
       https://www.mongodb.com/docs/manual/release-notes/5.0/#platform-support",
       matchDatasources: ["docker"],
