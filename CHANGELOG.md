@@ -1,3 +1,10 @@
+## [1.0.22](https://github.com/AkiKanellis/gradle-test/compare/v1.0.21...v1.0.22) (2022-12-11)
+
+
+### Build System
+
+* downgrade java ([d2d4919](https://github.com/AkiKanellis/gradle-test/commit/d2d491931723f14e3a647abe18b4a094a027b94c))
+
 ## [1.0.21](https://github.com/AkiKanellis/gradle-test/compare/v1.0.20...v1.0.21) (2022-12-11)
 
 
