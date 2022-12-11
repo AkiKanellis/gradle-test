@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/AkiKanellis/gradle-test/compare/v1.0.10...v1.0.11) (2022-12-11)
+
+
+### Build System
+
+* setup java and gradle in release ([e5011ad](https://github.com/AkiKanellis/gradle-test/commit/e5011ad409d87dcf673e634b18b497f3f7ea2db0))
+
 ## [1.0.10](https://github.com/AkiKanellis/gradle-test/compare/v1.0.9...v1.0.10) (2022-12-11)
 
 
