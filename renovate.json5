@@ -30,7 +30,7 @@
       fileMatch: [
         /* eslint-disable jsonc/no-useless-escape */
         "(^|/)justfile$",
-        "(^|/)gradle\.properties$",
+        "\.gradle(\.kts)?$",
         "(^workflow-templates|\.github/workflows)/[^/]+\.ya?ml$",
         "(^|/)action\.ya?ml$",
         "^ansible/.*vars/[^/]+\.ya?ml$"

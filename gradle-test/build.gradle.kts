@@ -17,15 +17,12 @@ dependencies {
 
 kotlin {
     jvmToolchain {
+        // renovate: datasource=adoptium-java depName=java
+        val javaVersion = "17.0.5+8"
+
         vendor.set(JvmVendorSpec.ADOPTIUM)
         languageVersion.set(
-            JavaLanguageVersion.of(
-                providers
-                    .gradleProperty("javaVersion")
-                    .get()
-                    .split(".")
-                    .first()
-            )
+            JavaLanguageVersion.of(javaVersion.split(".").first())
         )
     }
 }
