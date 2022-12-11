@@ -1,3 +1,10 @@
+## [1.0.23](https://github.com/AkiKanellis/gradle-test/compare/v1.0.22...v1.0.23) (2022-12-11)
+
+
+### Build System
+
+* **deps:** update dependency java to v17 ([#11](https://github.com/AkiKanellis/gradle-test/issues/11)) ([711011b](https://github.com/AkiKanellis/gradle-test/commit/711011b602d4f2482a7800013d73c69021dfb274))
+
 ## [1.0.22](https://github.com/AkiKanellis/gradle-test/compare/v1.0.21...v1.0.22) (2022-12-11)
 
 
