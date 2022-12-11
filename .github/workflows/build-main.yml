@@ -44,4 +44,6 @@ jobs:
         with:
           # renovate: datasource=npm depName=semantic-release
           semantic_version: 19.0.5
-          extra_plugins: conventional-changelog-conventionalcommits
+          extra_plugins: |
+            conventional-changelog-conventionalcommits
+            gradle-semantic-release-plugin
