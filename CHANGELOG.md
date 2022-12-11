@@ -1,3 +1,11 @@
+## [1.0.24](https://github.com/AkiKanellis/gradle-test/compare/v1.0.23...v1.0.24) (2022-12-11)
+
+
+### Build System
+
+* add back java renovate comment ([26be628](https://github.com/AkiKanellis/gradle-test/commit/26be6280b31979f5ecdc6973dbf553f1c84e92f0))
+* remove old package rule ([0888720](https://github.com/AkiKanellis/gradle-test/commit/08887208aefdd8053b2c9f623433c581c3926336))
+
 ## [1.0.23](https://github.com/AkiKanellis/gradle-test/compare/v1.0.22...v1.0.23) (2022-12-11)
 
 
