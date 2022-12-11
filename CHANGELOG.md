@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/AkiKanellis/gradle-test/compare/v1.0.5...v1.0.6) (2022-12-11)
+
+
+### Build System
+
+* remove scan ([357bd76](https://github.com/AkiKanellis/gradle-test/commit/357bd76130191cb59a33ecacf7c51b6d18e49338))
+
 ## [1.0.5](https://github.com/AkiKanellis/gradle-test/compare/v1.0.4...v1.0.5) (2022-12-05)
 
 
