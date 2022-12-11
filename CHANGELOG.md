@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/AkiKanellis/gradle-test/compare/v1.0.11...v1.0.12) (2022-12-11)
+
+
+### Build System
+
+* **deps:** update all non-major dependencies ([#5](https://github.com/AkiKanellis/gradle-test/issues/5)) ([08b81e8](https://github.com/AkiKanellis/gradle-test/commit/08b81e8e58bdb32d5d83b824828476396e85f9c1))
+
 ## [1.0.11](https://github.com/AkiKanellis/gradle-test/compare/v1.0.10...v1.0.11) (2022-12-11)
 
 
