@@ -1,3 +1,10 @@
+## [1.0.32](https://github.com/AkiKanellis/gradle-test/compare/v1.0.31...v1.0.32) (2022-12-12)
+
+
+### Build System
+
+* reset description ([cc27894](https://github.com/AkiKanellis/gradle-test/commit/cc2789490765f1f7d18151951aef34e972b96968))
+
 ## [1.0.31](https://github.com/AkiKanellis/gradle-test/compare/v1.0.30...v1.0.31) (2022-12-12)
 
 
