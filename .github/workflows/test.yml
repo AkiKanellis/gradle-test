@@ -20,7 +20,7 @@ jobs:
         with:
           distribution: temurin
           # renovate: datasource=adoptium-java depName=java
-          java-version: 17.0.5+8
+          java-version: 16.0.2+7
 
       - name: Test
         # yamllint disable-line rule:line-length
