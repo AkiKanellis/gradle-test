@@ -10,9 +10,7 @@
 
     "group:allNonMajor",
 
-    "helpers:pinGitHubActionDigests",
-
-    "schedule:weekends"
+    "helpers:pinGitHubActionDigests"
   ],
   username: "aki-bot[bot]",
   gitAuthor: "aki-bot <103840025+aki-bot[bot]@users.noreply.github.com>",
