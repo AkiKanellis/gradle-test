@@ -1,3 +1,11 @@
+## [1.0.33](https://github.com/AkiKanellis/gradle-test/compare/v1.0.32...v1.0.33) (2022-12-12)
+
+
+### Build System
+
+* downgrade java ([d8adcdb](https://github.com/AkiKanellis/gradle-test/commit/d8adcdb95178df7a2db2eb01637448b0d7ce5cdd))
+* remove renovate schedule ([f87b489](https://github.com/AkiKanellis/gradle-test/commit/f87b4899f2815ffc70d5f90acddd6037f81d200b))
+
 ## [1.0.32](https://github.com/AkiKanellis/gradle-test/compare/v1.0.31...v1.0.32) (2022-12-12)
 
 
