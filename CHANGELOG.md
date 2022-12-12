@@ -1,3 +1,10 @@
+## [1.0.29](https://github.com/AkiKanellis/gradle-test/compare/v1.0.28...v1.0.29) (2022-12-12)
+
+
+### Build System
+
+* extract java version ([3ee28d2](https://github.com/AkiKanellis/gradle-test/commit/3ee28d2a52c4c3a24576c8c4e7e0468d190bc134))
+
 ## [1.0.28](https://github.com/AkiKanellis/gradle-test/compare/v1.0.27...v1.0.28) (2022-12-11)
 
 
