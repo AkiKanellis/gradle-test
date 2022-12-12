@@ -31,29 +31,29 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Extract Java version
+      - name: Set Java distribution and version
         run: |
-          JAVA_VENDOR_WITH_VERSION=$(
+          JAVA_DISTRIBUTION_WITH_VERSION=$(
             cat .tool-versions |
               grep "java" |
               cut --delimiter=" " --fields=2
           )
-          JAVA_VENDOR=$(
-            echo "$JAVA_VENDOR_WITH_VERSION" |
+          JAVA_DISTRIBUTION=$(
+            echo "$JAVA_DISTRIBUTION_WITH_VERSION" |
               cut --delimiter="-" --fields=1
           )
           JAVA_VERSION=$(
-            echo "$JAVA_VENDOR_WITH_VERSION" |
+            echo "$JAVA_DISTRIBUTION_WITH_VERSION" |
               cut --delimiter="-" --fields=2
           )
-          echo "JAVA_VENDOR=$JAVA_VENDOR" >> $GITHUB_ENV
+          echo "JAVA_DISTRIBUTION=$JAVA_DISTRIBUTION" >> $GITHUB_ENV
           echo "JAVA_VERSION=$JAVA_VERSION" >> $GITHUB_ENV
 
       - name: Setup Java
         # yamllint disable-line rule:line-length
         uses: actions/setup-java@c3ac5dd0ed8db40fedb61c32fbe677e6b355e94c # v3.8.0
         with:
-          distribution: ${{ env.JAVA_VENDOR }}
+          distribution: ${{ env.JAVA_DISTRIBUTION }}
           java-version: ${{ env.JAVA_VERSION }}
 
       - name: Setup Gradle
