@@ -1,3 +1,10 @@
+## [1.0.38](https://github.com/AkiKanellis/gradle-test/compare/v1.0.37...v1.0.38) (2022-12-15)
+
+
+### Build System
+
+* **deps:** update renovatebot/github-action action to v34.57.0 ([#19](https://github.com/AkiKanellis/gradle-test/issues/19)) ([37e4891](https://github.com/AkiKanellis/gradle-test/commit/37e489185f6d9460f2aa07ac661336f071af2e56))
+
 ## [1.0.37](https://github.com/AkiKanellis/gradle-test/compare/v1.0.36...v1.0.37) (2022-12-15)
 
 
