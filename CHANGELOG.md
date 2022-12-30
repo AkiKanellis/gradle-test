@@ -1,3 +1,10 @@
+## [1.0.46](https://github.com/AkiKanellis/gradle-test/compare/v1.0.45...v1.0.46) (2022-12-30)
+
+
+### Build System
+
+* add test commit ([#28](https://github.com/AkiKanellis/gradle-test/issues/28)) ([d162f7c](https://github.com/AkiKanellis/gradle-test/commit/d162f7c6eec3a77e360838fc809a674090886f61)), closes [#27](https://github.com/AkiKanellis/gradle-test/issues/27)
+
 ## [1.0.45](https://github.com/AkiKanellis/gradle-test/compare/v1.0.44...v1.0.45) (2022-12-30)
 
 
