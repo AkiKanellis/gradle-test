@@ -22,11 +22,11 @@ jobs:
           # renovate: datasource=adoptium-java depName=java
           java-version: 17.0.5+8
 
-      - name: Test
-        # yamllint disable-line rule:line-length
-        uses: gradle/gradle-build-action@3fbe033aaae657f011f88f29be9e65ed26bd29ef # tag=v2.3.3
-        with:
-          arguments: test jacocoTestReport
-
-      - name: Upload test coverage to Codecov
-        uses: codecov/codecov-action@d9f34f8cd5cb3b3eb79b3e4b5dae3a16df499a70 # tag=v3.1.1
+#      - name: Test
+#        # yamllint disable-line rule:line-length
+#        uses: gradle/gradle-build-action@3fbe033aaae657f011f88f29be9e65ed26bd29ef # tag=v2.3.3
+#        with:
+#          arguments: test jacocoTestReport
+#
+#      - name: Upload test coverage to Codecov
+#        uses: codecov/codecov-action@d9f34f8cd5cb3b3eb79b3e4b5dae3a16df499a70 # tag=v3.1.1
