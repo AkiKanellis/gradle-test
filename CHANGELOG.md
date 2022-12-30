@@ -1,3 +1,12 @@
+## [1.0.45](https://github.com/AkiKanellis/gradle-test/compare/v1.0.44...v1.0.45) (2022-12-30)
+
+
+### Build System
+
+* get app token for release ([0e88f24](https://github.com/AkiKanellis/gradle-test/commit/0e88f24f3d88d0292942fb6f930ca16811fcbefb))
+* temporarily disable tests ([234380d](https://github.com/AkiKanellis/gradle-test/commit/234380d87cb62221616f7c2706ad160a7d0c548f))
+* use token as is ([46be455](https://github.com/AkiKanellis/gradle-test/commit/46be455c5217f7efc8db87321cb3cd10ba02a588))
+
 ## [1.0.44](https://github.com/AkiKanellis/gradle-test/compare/v1.0.43...v1.0.44) (2022-12-30)
 
 
